@@ -22,9 +22,9 @@
 
 ## 测试和效果
 
-![image-20200909122517997](https://github.com/cendaifeng/auto-markdown-toc/blob/master/README.assets/image-20200909122517997.png)
+<img src="https://github.com/cendaifeng/auto-markdown-toc/blob/master/README.assets/image-20200909122517997.png" style="zoom:67%;" />
 
-![image-20200909130234909](https://github.com/cendaifeng/auto-markdown-toc/blob/master/README.assets/image-20200909130234909.png)
+<img src="https://github.com/cendaifeng/auto-markdown-toc/blob/master/README.assets/image-20200909130234909.png" style="zoom:80%;" />
 
 ## 特性
 
