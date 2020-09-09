@@ -22,9 +22,9 @@
 
 ## 测试和效果
 
-![image-20200909122517997](C:\Users\Administrator\git_dir\auto-markdown-toc\README.assets\image-20200909122517997.png)
+![image-20200909122517997](https://github.com/cendaifeng/auto-markdown-toc/blob/master/README.assets/image-20200909122517997.png)
 
-![image-20200909130234909](C:\Users\Administrator\git_dir\auto-markdown-toc\README.assets\image-20200909130234909.png)
+![image-20200909130234909](https://github.com/cendaifeng/auto-markdown-toc/blob/master/README.assets/image-20200909130234909.png)
 
 ## 特性
 
