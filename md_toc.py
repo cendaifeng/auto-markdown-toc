@@ -1,7 +1,7 @@
 #
-# file: [md_toc.py]
-# author: cendaifeng
-# time：2020-09-09
+# File: [md_toc.py]
+# Author: cendaifeng
+# Date：2020-09-09
 #
 import os
 import sys
@@ -10,7 +10,7 @@ import sys
 def init(file_name):
     md = open(file_name, "r", encoding='UTF-8')
 
-    toc_list = []
+    toc_list = ['## 目录\n', '\n']
 
     is_code = False
 
@@ -55,11 +55,16 @@ def idx_handle(toc_title):
 
 
 def write_file(toc_list, md_list):
-    new_file = open(md_name[:md_name.find('.')] + '_with_toc.md', 'w', encoding='UTF-8')
-    toc_list.append('\n')
-    toc_list.extend(md_list)
-    new_file.writelines(toc_list)
-    new_file.close()
+    if len(toc_list) == 2:
+        print('==== can not detect any heading in the markdown ====')
+        print('...  program EXIT')
+        sys.exit(-1)
+    else:
+        new_file = open(md_name[:md_name.find('.')] + '_with_toc.md', 'w', encoding='UTF-8')
+        toc_list.extend(['\n', '<br/>\n', '\n'])
+        toc_list.extend(md_list)
+        new_file.writelines(toc_list)
+        new_file.close()
 
 
 if __name__ == '__main__':
